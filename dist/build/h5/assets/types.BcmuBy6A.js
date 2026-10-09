@@ -1,0 +1,1 @@
+var e={pending:"待支付",paid:"待取车",active:"租赁中",returned:"已完成",cancelled:"已取消"},a={submitted:"已提交",evaluating:"检测评估中",quoted:"已出价",appointed:"已预约到店",deal:"已成交",rejected:"已驳回",cancelled:"已取消"};export{a as n,e as t};
