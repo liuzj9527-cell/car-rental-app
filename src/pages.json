@@ -1,0 +1,48 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  },
+  "pages": [
+    { "path": "pages/index/index", "style": { "navigationBarTitleText": "驭驰车服", "navigationStyle": "custom" } },
+    { "path": "pages/vehicle/list", "style": { "navigationBarTitleText": "租车" } },
+    { "path": "pages/vehicle/detail", "style": { "navigationBarTitleText": "车辆详情" } },
+    { "path": "pages/sale/list", "style": { "navigationBarTitleText": "买车" } },
+    { "path": "pages/sale/detail", "style": { "navigationBarTitleText": "二手车详情", "navigationStyle": "custom" } },
+    { "path": "pages/sale/search", "style": { "navigationBarTitleText": "搜索" } },
+    { "path": "pages/sale/sell", "style": { "navigationBarTitleText": "我要卖车" } },
+    { "path": "pages/sell/list", "style": { "navigationBarTitleText": "我的卖车" } },
+    { "path": "pages/installment/calc", "style": { "navigationBarTitleText": "分期购车" } },
+    { "path": "pages/vip/vip", "style": { "navigationBarTitleText": "VIP 会员", "navigationStyle": "custom" } },
+    { "path": "pages/store/map", "style": { "navigationBarTitleText": "门店地图" } },
+    { "path": "pages/store/detail", "style": { "navigationBarTitleText": "门店详情" } },
+    { "path": "pages/comment/publish", "style": { "navigationBarTitleText": "发布评价" } },
+    { "path": "pages/order/create", "style": { "navigationBarTitleText": "确认订单" } },
+    { "path": "pages/order/list", "style": { "navigationBarTitleText": "我的订单" } },
+    { "path": "pages/order/detail", "style": { "navigationBarTitleText": "订单详情" } },
+    { "path": "pages/user/user", "style": { "navigationBarTitleText": "我的" } },
+    { "path": "pages/login/login", "style": { "navigationBarTitleText": "登录" } },
+    { "path": "pages/coupon/coupon", "style": { "navigationBarTitleText": "优惠券" } }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "驭驰车服",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F4F5F7"
+  },
+  "tabBar": {
+    "color": "#8A9099",
+    "selectedColor": "#FF6A00",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      { "pagePath": "pages/index/index", "text": "首页", "iconPath": "static/tabbar/tab-home.png", "selectedIconPath": "static/tabbar/tab-home-on.png" },
+      { "pagePath": "pages/vehicle/list", "text": "租车", "iconPath": "static/tabbar/tab-rent.png", "selectedIconPath": "static/tabbar/tab-rent-on.png" },
+      { "pagePath": "pages/sale/list", "text": "买车", "iconPath": "static/tabbar/tab-buy.png", "selectedIconPath": "static/tabbar/tab-buy-on.png" },
+      { "pagePath": "pages/sale/sell", "text": "卖车", "iconPath": "static/tabbar/tab-sell.png", "selectedIconPath": "static/tabbar/tab-sell-on.png" },
+      { "pagePath": "pages/user/user", "text": "我的", "iconPath": "static/tabbar/tab-user.png", "selectedIconPath": "static/tabbar/tab-user-on.png" }
+    ]
+  }
+}
